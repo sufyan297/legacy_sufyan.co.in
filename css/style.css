@@ -5,8 +5,8 @@ body {
 }
 
 #particle {
-  background: url('../img/main-bg.jpeg');
-  height: 600px;
+  background: #212121;
+  height: 500px;
   width: 100%;
   background-size: cover;
 }
@@ -15,7 +15,50 @@ h1 {
   color: white;
   font-family: 'Muli', sans-serif;
 }
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: 'Muli', sans-serif;
 
+}
+.navbar-inverse .navbar-toggler {
+  border-color: #eee;
+}
+
+.navbar-inverse .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>") !important;
+}
+
+.white-navbar {
+  background: #fff;
+  font-family: 'Muli', sans-serif;
+}
+.navbar-brand {
+  color: #000 !important;
+}
+.nav-item .nav-link{
+  color: #000 !important;
+}
+/* Font colors */
+.text-black {
+  color: #000 !important;
+}
+/* Background colors */
+.gray-bg {
+  background-color: #eee !important;
+}
+.white-bg {
+  background-color: #fff !important;
+}
+/* Primary and Secondary DIV */
+.secondary-div {
+
+}
+.primary-div {
+
+}
 /*// Extra small devices (portrait phones, less than 576px)*/
 /*// No media query since this is the default in Bootstrap*/
 

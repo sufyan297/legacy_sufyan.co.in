@@ -12,8 +12,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
 
 
   </head>
@@ -21,8 +25,8 @@
 
   <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top white-navbar">
+      <button class="navbar-toggler navbar-toggler-right toggler-border" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">Mohammed Sufyan</a>
@@ -32,6 +36,16 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#my-works">Work <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
           </li> -->
@@ -40,17 +54,61 @@
     </nav>
     <!-- NavBar over here -->
     <div id="particle">
-      <div class="container" style="top: 50%;">
+      <div class="container-fluid" style="top: 50%;">
         <div class="row">
           <div class="col">
-            <h1 class="text-center">Hello World!</h1>
+            <h1 id="anim-text" class="text-center"></h1>
           </div>
         </div>
       </div>
 
     </div>
 
-    <div class="container">
+    <div id="my-works" class="container-fluid gray-bg secondary-div">
+      <br/>
+      <br/>
+      <div class="container-fluid">
+        <div class="owl-carousel owl-theme">
+          <div class="item" style="margin-top: 45px;">
+            <h2>
+              My Works
+            </h2>
+            <p>
+              These are my latest or upcoming works. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="item"><img src="https://placehold.it/250x200" /></div>
+          <div class="item"><img src="https://placehold.it/250x200" /></div>
+          <div class="item"><img src="https://placehold.it/250x200" /></div>
+          <div class="item"><img src="https://placehold.it/250x200" /></div>
+          <div class="item"><img src="https://placehold.it/250x200" /></div>
+        </div>
+      </div>
+      <br/>
+      <br/>
+    </div>
+
+
+    <div id="about-me" class="container-fluid white-bg primary-div">
+      <br/>
+      <br/>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center text-black">About Me</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="col">
+          </div>
+          <div class="col">
+          </div>
+        </div>
+      </div>
 
     </div>
 
@@ -68,6 +126,9 @@
       <script src="js/jquery-3.2.1.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/typed.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+
       <script src="js/app.js"></script>
 
     </body>
