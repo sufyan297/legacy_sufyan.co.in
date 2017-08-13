@@ -12,7 +12,10 @@
         var typed = new Typed('#anim-text', {
           strings: [
             "Hello World!",
-            "I'm Mohammed Sufyan Shaikh"
+            "I'm Mohammed Sufyan Shaikh",
+            "Software Developer from Vadodara",
+            "I love to code, always excited to try new programming languages.",
+            "I believes in <strong style='color: green;'>'First solve the problem, Then write the code.'</strong>"
           ],
           typeSpeed: 70,
           backSpeed: 30,
@@ -20,7 +23,7 @@
           smartBackspace: true,
           cursorChar: '',
           startDelay: 1000,
-          backDelay: 500,
+          backDelay: 600,
 
         });
 
