@@ -4,18 +4,19 @@
     $(document).ready(function() {
         console.log("Document Ready!");
         /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-        particlesJS.load('particle', 'js/particlesjs-config.json', function() {
-          console.log('callback - particles.js config loaded');
-        });
+
+        // particlesJS.load('particle', 'js/particlesjs-config.json', function() {
+        //   console.log('callback - particles.js config loaded');
+        // });
 
 
         var typed = new Typed('#anim-text', {
           strings: [
-            "Hello World!",
-            "I'm Mohammed Sufyan Shaikh",
-            "Software Developer from Vadodara",
-            "I love to code, always excited to try new programming languages.",
-            "I believes in <strong style='color: green;'>'First solve the problem, Then write the code.'</strong>"
+            "Hello <strong style='color: #00bcd4;'>World!</strong>",
+            "I'm <strong style='color: #00bcd4;'>Mohammed Sufyan Shaikh</strong>",
+            "Software Developer from <strong style='color: #00bcd4;'>Vadodara</strong>",
+            "I love to code, always excited to try new <strong style='color: #00bcd4;'>programming languages.</strong>",
+            "I believe in <strong style='color: #00bcd4;'>'First solve the problem, Then write the code.'</strong>"
           ],
           typeSpeed: 70,
           backSpeed: 30,
@@ -32,17 +33,18 @@
           // loop:true,
           margin:10,
           // nav:true,
+          lazyLoad:true,
           stagePadding: 50,
-          dots: false,
+          dots: true,
           responsive:{
               0:{
                   items:1
               },
               600:{
-                  items:3
+                  items:2
               },
               1000:{
-                  items:5
+                  items:3
               }
           }
       });

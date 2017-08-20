@@ -5,7 +5,8 @@ body {
 }
 
 #particle {
-  background: #212121;
+  /*background: #212121;*/
+  background: url('../img/main-bg-old.jpg');
   height: 500px;
   width: 100%;
   background-size: cover;
@@ -34,6 +35,7 @@ p {
 .white-navbar {
   background: #fff;
   font-family: 'Muli', sans-serif;
+  border-bottom: 1px solid #ccc;
 }
 .navbar-brand {
   color: #000 !important;
@@ -41,9 +43,45 @@ p {
 .nav-item .nav-link{
   color: #000 !important;
 }
+/* Overlay */
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 4;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+}
+.item:hover .overlay {
+    opacity: 1;
+}
+.overlay-middle-text {
+  font-family: 'Muli', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 5;
+}
+
 /* Font colors */
 .text-black {
   color: #000 !important;
+}
+.text-white {
+    color: #fff !important;
+}
+.text-decoration-none:hover {
+    text-decoration: none;
+}
+/* Font sizes */
+.font-size-30 {
+    font-size: 30px;
 }
 /* Background colors */
 .gray-bg {
