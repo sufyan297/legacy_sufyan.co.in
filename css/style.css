@@ -106,7 +106,7 @@ p {
 @media (min-width: 360px) and (max-width: 543px) {
     .overlay-middle-text-pos {
         position: relative;
-        top: 10%;
+        top: 16%;
         padding: 10px;
     }
     .text-decoration-none i {
