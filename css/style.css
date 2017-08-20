@@ -109,7 +109,7 @@ p {
 /*// Extra small devices (portrait phones, less than 576px)*/
 /*// No media query since this is the default in Bootstrap*/
 /*Small Devices*/
-@media (min-width: 360px) and (max-width: 543px) {
+@media (min-width: 320px) and (max-width: 543px) {
     .overlay-middle-text-pos {
         position: relative;
         top: 16%;
