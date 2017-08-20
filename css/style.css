@@ -68,7 +68,10 @@ p {
   vertical-align: middle;
   z-index: 5;
 }
-
+.overlay-middle-text-pos {
+    position: relative;
+    top: 40%;
+}
 /* Font colors */
 .text-black {
   color: #000 !important;
@@ -99,15 +102,46 @@ p {
 }
 /*// Extra small devices (portrait phones, less than 576px)*/
 /*// No media query since this is the default in Bootstrap*/
+/*Small Devices*/
+@media (min-width: 360px) and (max-width: 543px) {
+    .overlay-middle-text-pos {
+        position: relative;
+        top: 10%;
+        padding: 10px;
+    }
+    .text-decoration-none i {
+        font-size: 20px !important;
+    }
 
+
+}
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {  }
+@media (min-width: 544px) and (max-width: 767px) {
+    .overlay-middle-text-pos {
+        position: relative;
+        top: 27%;
+        padding: 10px;
+    }
+    .text-decoration-none i {
+        font-size: 25px !important;
+    }
 
+}
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {  }
+@media (min-width: 768px) and (max-width: 1023px) {}
 
 /*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {  }
+@media (min-width: 1024px) and (max-width: 1199px) {
 
+}
 /*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) and (max-width: 1368px) {
+
+}
+@media (min-width: 1369px) and (max-width: 1440px){
+
+}
+
+@media (min-width: 1441px)  {
+
+}
