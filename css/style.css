@@ -7,13 +7,13 @@ body {
 #particle {
   /*background: #212121;*/
   background: url('../img/background_header_final.jpeg');
-  height: 500px;
+  height: 900px;
   width: 100%;
   background-size: cover;
 }
 
 h1 {
-  color: white;
+  color: #4e4f50;
   font-family: 'Muli', sans-serif;
 }
 h2 {
